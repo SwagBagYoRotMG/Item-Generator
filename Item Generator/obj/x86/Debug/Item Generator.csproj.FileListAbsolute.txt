@@ -1,0 +1,8 @@
+C:\Users\Blayden's\Desktop\PhoenixRealms-master-master\Item Generator\bin\Debug\Item Generator.exe
+C:\Users\Blayden's\Desktop\PhoenixRealms-master-master\Item Generator\bin\Debug\Item Generator.pdb
+C:\Users\Blayden's\Desktop\PhoenixRealms-master-master\Item Generator\obj\x86\Debug\Item_Generator.ItemProperties.resources
+C:\Users\Blayden's\Desktop\PhoenixRealms-master-master\Item Generator\obj\x86\Debug\Item_Generator.Properties.Resources.resources
+C:\Users\Blayden's\Desktop\PhoenixRealms-master-master\Item Generator\obj\x86\Debug\Item Generator.csproj.GenerateResource.Cache
+C:\Users\Blayden's\Desktop\PhoenixRealms-master-master\Item Generator\obj\x86\Debug\Item Generator.exe
+C:\Users\Blayden's\Desktop\PhoenixRealms-master-master\Item Generator\obj\x86\Debug\Item Generator.pdb
+C:\Users\Blayden's\Desktop\PhoenixRealms-master-master\Item Generator\obj\x86\Debug\Item Generator.csprojResolveAssemblyReference.cache

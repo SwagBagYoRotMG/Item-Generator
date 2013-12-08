@@ -1,0 +1,10 @@
+<Object type="" id="">
+<Class>Equipment</Class>
+<Item/>
+<Texture>
+<File></File>
+<Index><Index>
+</Texture>
+<Tier></tier>
+<SlotType><SlotType>
+youdidit
