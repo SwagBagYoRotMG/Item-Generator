@@ -3,3 +3,4 @@ C:\Users\NicolasJames\Nico's Stuff\Games and stuff\Clients\RotMG\Private Servers
 C:\Users\NicolasJames\Nico's Stuff\Games and stuff\Clients\RotMG\Private Servers\RotMG CMD Item Maker\RotMG CMD Item Maker\bin\Debug\RotMG CMD Item Maker.pdb
 C:\Users\NicolasJames\Nico's Stuff\Games and stuff\Clients\RotMG\Private Servers\RotMG CMD Item Maker\RotMG CMD Item Maker\obj\Debug\RotMG CMD Item Maker.exe
 C:\Users\NicolasJames\Nico's Stuff\Games and stuff\Clients\RotMG\Private Servers\RotMG CMD Item Maker\RotMG CMD Item Maker\obj\Debug\RotMG CMD Item Maker.pdb
+C:\Users\NicolasJames\Nico's Stuff\Games and stuff\Clients\RotMG\Private Servers\RotMG CMD Item Maker\RotMG CMD Item Maker\obj\Debug\RotMG CMD Item Maker.csprojResolveAssemblyReference.cache
