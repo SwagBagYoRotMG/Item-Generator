@@ -6,3 +6,11 @@ C:\Users\Blayden's\Desktop\PhoenixRealms-master-master\Item Generator\obj\x86\De
 C:\Users\Blayden's\Desktop\PhoenixRealms-master-master\Item Generator\obj\x86\Debug\Item Generator.exe
 C:\Users\Blayden's\Desktop\PhoenixRealms-master-master\Item Generator\obj\x86\Debug\Item Generator.pdb
 C:\Users\Blayden's\Desktop\PhoenixRealms-master-master\Item Generator\obj\x86\Debug\Item Generator.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\Item-Generator\LunarShade Item Generator\obj\x86\Debug\Item Generator.exe
+C:\Users\Jonathan\Documents\GitHub\Item-Generator\LunarShade Item Generator\obj\x86\Debug\Item Generator.pdb
+C:\Users\Jonathan\Documents\GitHub\Item-Generator\LunarShade Item Generator\bin\Debug\Item Generator.exe
+C:\Users\Jonathan\Documents\GitHub\Item-Generator\LunarShade Item Generator\bin\Debug\Item Generator.pdb
+C:\Users\Jonathan\Documents\GitHub\Item-Generator\LunarShade Item Generator\obj\x86\Debug\Item Generator.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan\Documents\GitHub\Item-Generator\LunarShade Item Generator\obj\x86\Debug\Item_Generator.ItemProperties.resources
+C:\Users\Jonathan\Documents\GitHub\Item-Generator\LunarShade Item Generator\obj\x86\Debug\Item_Generator.Properties.Resources.resources
+C:\Users\Jonathan\Documents\GitHub\Item-Generator\LunarShade Item Generator\obj\x86\Debug\Item Generator.csproj.GenerateResource.Cache
