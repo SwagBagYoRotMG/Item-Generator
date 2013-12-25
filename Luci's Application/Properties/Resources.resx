@@ -160,4 +160,7 @@
   <data name="ItemMakerExport" xml:space="preserve">
     <value>Export File</value>
   </data>
+  <data name="Project1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Project1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

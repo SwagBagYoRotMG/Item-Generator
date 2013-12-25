@@ -55,7 +55,15 @@
             this.DescTITLE = new System.Windows.Forms.Label();
             this.DescNAME = new System.Windows.Forms.Label();
             this.CryptExplorer = new System.Windows.Forms.Panel();
-            this.TestBox = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.PictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.BorderBottom)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BorderLeft)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BorderRight)).BeginInit();
@@ -65,16 +73,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.FormIcon)).BeginInit();
             this.CryptDisplay.SuspendLayout();
             this.CryptDescription.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.TestBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // BorderBottom
             // 
-            this.BorderBottom.BackgroundImage = global::BaseLayout.Properties.Resources.TopBarBg;
             this.BorderBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.BorderBottom.Location = new System.Drawing.Point(0, 753);
+            this.BorderBottom.Location = new System.Drawing.Point(0, 754);
             this.BorderBottom.Name = "BorderBottom";
-            this.BorderBottom.Size = new System.Drawing.Size(1024, 15);
+            this.BorderBottom.Size = new System.Drawing.Size(1024, 14);
             this.BorderBottom.TabIndex = 1;
             this.BorderBottom.TabStop = false;
             // 
@@ -82,9 +97,9 @@
             // 
             this.BorderLeft.BackgroundImage = global::BaseLayout.Properties.Resources.TopBarBg;
             this.BorderLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.BorderLeft.Location = new System.Drawing.Point(0, 24);
+            this.BorderLeft.Location = new System.Drawing.Point(0, 30);
             this.BorderLeft.Name = "BorderLeft";
-            this.BorderLeft.Size = new System.Drawing.Size(5, 729);
+            this.BorderLeft.Size = new System.Drawing.Size(6, 724);
             this.BorderLeft.TabIndex = 2;
             this.BorderLeft.TabStop = false;
             // 
@@ -92,16 +107,16 @@
             // 
             this.BorderRight.BackgroundImage = global::BaseLayout.Properties.Resources.TopBarBg;
             this.BorderRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BorderRight.Location = new System.Drawing.Point(1019, 24);
+            this.BorderRight.Location = new System.Drawing.Point(1018, 30);
             this.BorderRight.Name = "BorderRight";
-            this.BorderRight.Size = new System.Drawing.Size(5, 729);
+            this.BorderRight.Size = new System.Drawing.Size(6, 724);
             this.BorderRight.TabIndex = 3;
             this.BorderRight.TabStop = false;
             // 
             // CloseButton
             // 
             this.CloseButton.BackgroundImage = global::BaseLayout.Properties.Resources.Close;
-            this.CloseButton.Location = new System.Drawing.Point(969, 0);
+            this.CloseButton.Location = new System.Drawing.Point(968, 1);
             this.CloseButton.Name = "CloseButton";
             this.CloseButton.Size = new System.Drawing.Size(50, 20);
             this.CloseButton.TabIndex = 4;
@@ -114,7 +129,7 @@
             // 
             this.MaximizeButton.BackgroundImage = global::BaseLayout.Properties.Resources.Maximize;
             this.MaximizeButton.Enabled = false;
-            this.MaximizeButton.Location = new System.Drawing.Point(944, 0);
+            this.MaximizeButton.Location = new System.Drawing.Point(943, 1);
             this.MaximizeButton.Name = "MaximizeButton";
             this.MaximizeButton.Size = new System.Drawing.Size(25, 20);
             this.MaximizeButton.TabIndex = 5;
@@ -127,7 +142,7 @@
             // 
             this.MinimizeButton.BackgroundImage = global::BaseLayout.Properties.Resources.Minimize;
             this.MinimizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.MinimizeButton.Location = new System.Drawing.Point(919, 0);
+            this.MinimizeButton.Location = new System.Drawing.Point(918, 1);
             this.MinimizeButton.Name = "MinimizeButton";
             this.MinimizeButton.Size = new System.Drawing.Size(25, 20);
             this.MinimizeButton.TabIndex = 6;
@@ -141,9 +156,9 @@
             this.FormIcon.BackColor = System.Drawing.Color.Transparent;
             this.FormIcon.BackgroundImage = global::BaseLayout.Properties.Resources.Icon;
             this.FormIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.FormIcon.Location = new System.Drawing.Point(5, 1);
+            this.FormIcon.Location = new System.Drawing.Point(6, 3);
             this.FormIcon.Name = "FormIcon";
-            this.FormIcon.Size = new System.Drawing.Size(22, 22);
+            this.FormIcon.Size = new System.Drawing.Size(24, 24);
             this.FormIcon.TabIndex = 7;
             this.FormIcon.TabStop = false;
             this.FormIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.MaximizeWindow);
@@ -158,7 +173,7 @@
             this.BorderTopTitle.Font = new System.Drawing.Font("Zephyr", 12F);
             this.BorderTopTitle.Location = new System.Drawing.Point(0, 0);
             this.BorderTopTitle.Name = "BorderTopTitle";
-            this.BorderTopTitle.Size = new System.Drawing.Size(1024, 24);
+            this.BorderTopTitle.Size = new System.Drawing.Size(1024, 30);
             this.BorderTopTitle.TabIndex = 8;
             this.BorderTopTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.BorderTopTitle.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.MaximizeWindow);
@@ -168,32 +183,43 @@
             // 
             // Version
             // 
-            this.Version.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(160)))), ((int)(((byte)(211)))));
+            this.Version.BackColor = System.Drawing.Color.Transparent;
             this.Version.Location = new System.Drawing.Point(943, 754);
+            this.Version.Margin = new System.Windows.Forms.Padding(0);
             this.Version.Name = "Version";
-            this.Version.Size = new System.Drawing.Size(80, 13);
+            this.Version.Size = new System.Drawing.Size(81, 14);
             this.Version.TabIndex = 9;
-            this.Version.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Version.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // Copyright
             // 
-            this.Copyright.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(160)))), ((int)(((byte)(211)))));
+            this.Copyright.BackColor = System.Drawing.Color.Transparent;
             this.Copyright.Location = new System.Drawing.Point(0, 754);
+            this.Copyright.Margin = new System.Windows.Forms.Padding(0);
             this.Copyright.Name = "Copyright";
-            this.Copyright.Size = new System.Drawing.Size(1024, 13);
+            this.Copyright.Size = new System.Drawing.Size(943, 14);
             this.Copyright.TabIndex = 10;
-            this.Copyright.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // CryptDisplay
             // 
             this.CryptDisplay.BackColor = System.Drawing.Color.White;
-            this.CryptDisplay.Controls.Add(this.TestBox);
+            this.CryptDisplay.Controls.Add(this.PictureBox1);
+            this.CryptDisplay.Controls.Add(this.pictureBox2);
+            this.CryptDisplay.Controls.Add(this.pictureBox3);
+            this.CryptDisplay.Controls.Add(this.pictureBox4);
+            this.CryptDisplay.Controls.Add(this.pictureBox5);
+            this.CryptDisplay.Controls.Add(this.pictureBox6);
+            this.CryptDisplay.Controls.Add(this.pictureBox7);
+            this.CryptDisplay.Controls.Add(this.pictureBox8);
+            this.CryptDisplay.Controls.Add(this.pictureBox9);
             this.CryptDisplay.Dock = System.Windows.Forms.DockStyle.Right;
-            this.CryptDisplay.Location = new System.Drawing.Point(310, 24);
+            this.CryptDisplay.Location = new System.Drawing.Point(309, 30);
             this.CryptDisplay.Name = "CryptDisplay";
-            this.CryptDisplay.Padding = new System.Windows.Forms.Padding(5);
-            this.CryptDisplay.Size = new System.Drawing.Size(709, 729);
+            this.CryptDisplay.Padding = new System.Windows.Forms.Padding(10, 16, 8, 9);
+            this.CryptDisplay.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.CryptDisplay.Size = new System.Drawing.Size(709, 724);
             this.CryptDisplay.TabIndex = 11;
+            this.CryptDisplay.TabStop = true;
             // 
             // CryptDescription
             // 
@@ -211,10 +237,10 @@
             this.CryptDescription.Controls.Add(this.DescDEV);
             this.CryptDescription.Controls.Add(this.DescTITLE);
             this.CryptDescription.Controls.Add(this.DescNAME);
-            this.CryptDescription.Location = new System.Drawing.Point(5, 531);
+            this.CryptDescription.Location = new System.Drawing.Point(6, 531);
             this.CryptDescription.Name = "CryptDescription";
             this.CryptDescription.Padding = new System.Windows.Forms.Padding(3);
-            this.CryptDescription.Size = new System.Drawing.Size(299, 222);
+            this.CryptDescription.Size = new System.Drawing.Size(298, 223);
             this.CryptDescription.TabIndex = 13;
             // 
             // DescOTHER
@@ -231,58 +257,58 @@
             // 
             this.DescSERIALBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DescSERIALBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DescSERIALBox.Location = new System.Drawing.Point(103, 87);
+            this.DescSERIALBox.Location = new System.Drawing.Point(104, 87);
             this.DescSERIALBox.MaxLength = 29;
             this.DescSERIALBox.Name = "DescSERIALBox";
-            this.DescSERIALBox.Size = new System.Drawing.Size(190, 13);
+            this.DescSERIALBox.Size = new System.Drawing.Size(189, 13);
             this.DescSERIALBox.TabIndex = 12;
             // 
             // DescCREATEDBox
             // 
             this.DescCREATEDBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DescCREATEDBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DescCREATEDBox.Location = new System.Drawing.Point(103, 68);
+            this.DescCREATEDBox.Location = new System.Drawing.Point(104, 68);
             this.DescCREATEDBox.MaxLength = 10;
             this.DescCREATEDBox.Name = "DescCREATEDBox";
-            this.DescCREATEDBox.Size = new System.Drawing.Size(190, 13);
+            this.DescCREATEDBox.Size = new System.Drawing.Size(189, 13);
             this.DescCREATEDBox.TabIndex = 11;
             // 
             // DescDEVBox
             // 
             this.DescDEVBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DescDEVBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DescDEVBox.Location = new System.Drawing.Point(103, 49);
+            this.DescDEVBox.Location = new System.Drawing.Point(104, 49);
             this.DescDEVBox.MaxLength = 32;
             this.DescDEVBox.Name = "DescDEVBox";
-            this.DescDEVBox.Size = new System.Drawing.Size(190, 13);
+            this.DescDEVBox.Size = new System.Drawing.Size(189, 13);
             this.DescDEVBox.TabIndex = 10;
             // 
             // DescTITLEBox
             // 
             this.DescTITLEBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DescTITLEBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DescTITLEBox.Location = new System.Drawing.Point(103, 30);
+            this.DescTITLEBox.Location = new System.Drawing.Point(104, 30);
             this.DescTITLEBox.MaxLength = 32;
             this.DescTITLEBox.Name = "DescTITLEBox";
-            this.DescTITLEBox.Size = new System.Drawing.Size(190, 13);
+            this.DescTITLEBox.Size = new System.Drawing.Size(189, 13);
             this.DescTITLEBox.TabIndex = 9;
             // 
             // DescNAMEBox
             // 
             this.DescNAMEBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DescNAMEBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DescNAMEBox.Location = new System.Drawing.Point(103, 11);
+            this.DescNAMEBox.Location = new System.Drawing.Point(104, 11);
             this.DescNAMEBox.MaxLength = 64;
             this.DescNAMEBox.Name = "DescNAMEBox";
-            this.DescNAMEBox.Size = new System.Drawing.Size(190, 13);
+            this.DescNAMEBox.Size = new System.Drawing.Size(189, 13);
             this.DescNAMEBox.TabIndex = 8;
             // 
             // SerialGen
             // 
             this.SerialGen.Enabled = false;
-            this.SerialGen.Location = new System.Drawing.Point(218, 193);
+            this.SerialGen.Location = new System.Drawing.Point(219, 193);
             this.SerialGen.Name = "SerialGen";
-            this.SerialGen.Size = new System.Drawing.Size(75, 23);
+            this.SerialGen.Size = new System.Drawing.Size(74, 23);
             this.SerialGen.TabIndex = 0;
             this.SerialGen.Text = "Generator";
             this.SerialGen.UseVisualStyleBackColor = true;
@@ -294,12 +320,12 @@
             this.DescOTHERBox.BackColor = System.Drawing.Color.White;
             this.DescOTHERBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.DescOTHERBox.ForeColor = System.Drawing.Color.DimGray;
-            this.DescOTHERBox.Location = new System.Drawing.Point(6, 125);
+            this.DescOTHERBox.Location = new System.Drawing.Point(7, 125);
             this.DescOTHERBox.MaxLength = 300;
             this.DescOTHERBox.Name = "DescOTHERBox";
             this.DescOTHERBox.ReadOnly = true;
             this.DescOTHERBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.DescOTHERBox.Size = new System.Drawing.Size(287, 91);
+            this.DescOTHERBox.Size = new System.Drawing.Size(286, 91);
             this.DescOTHERBox.TabIndex = 7;
             this.DescOTHERBox.Text = "";
             // 
@@ -356,24 +382,137 @@
             // CryptExplorer
             // 
             this.CryptExplorer.BackColor = System.Drawing.Color.White;
-            this.CryptExplorer.Location = new System.Drawing.Point(5, 24);
+            this.CryptExplorer.Location = new System.Drawing.Point(6, 30);
             this.CryptExplorer.Name = "CryptExplorer";
-            this.CryptExplorer.Size = new System.Drawing.Size(299, 501);
+            this.CryptExplorer.Size = new System.Drawing.Size(298, 495);
             this.CryptExplorer.TabIndex = 14;
             // 
-            // TestBox
+            // pictureBox4
             // 
-            this.TestBox.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.TestBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.TestBox.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.TestBox.Image = global::BaseLayout.Properties.Resources.Icon;
-            this.TestBox.Location = new System.Drawing.Point(8, 8);
-            this.TestBox.Name = "TestBox";
-            this.TestBox.Size = new System.Drawing.Size(150, 150);
-            this.TestBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.TestBox.TabIndex = 0;
-            this.TestBox.TabStop = false;
-            this.TestBox.Click += new System.EventHandler(this.onClick);
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox4.Image = global::BaseLayout.Properties.Resources.Project1;
+            this.pictureBox4.Location = new System.Drawing.Point(13, 249);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Padding = new System.Windows.Forms.Padding(3);
+            this.pictureBox4.Size = new System.Drawing.Size(224, 224);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 3;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox8.Image = global::BaseLayout.Properties.Resources.Project1;
+            this.pictureBox8.Location = new System.Drawing.Point(243, 479);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Padding = new System.Windows.Forms.Padding(3);
+            this.pictureBox8.Size = new System.Drawing.Size(224, 224);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 7;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox7.Image = global::BaseLayout.Properties.Resources.Project1;
+            this.pictureBox7.Location = new System.Drawing.Point(13, 479);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Padding = new System.Windows.Forms.Padding(3);
+            this.pictureBox7.Size = new System.Drawing.Size(224, 224);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 6;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox3.Image = global::BaseLayout.Properties.Resources.Project1;
+            this.pictureBox3.Location = new System.Drawing.Point(473, 19);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Padding = new System.Windows.Forms.Padding(3);
+            this.pictureBox3.Size = new System.Drawing.Size(224, 224);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 2;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = global::BaseLayout.Properties.Resources.Project1;
+            this.pictureBox2.Location = new System.Drawing.Point(243, 19);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Padding = new System.Windows.Forms.Padding(3);
+            this.pictureBox2.Size = new System.Drawing.Size(224, 224);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox6.Image = global::BaseLayout.Properties.Resources.Project1;
+            this.pictureBox6.Location = new System.Drawing.Point(473, 249);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Padding = new System.Windows.Forms.Padding(3);
+            this.pictureBox6.Size = new System.Drawing.Size(224, 224);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 5;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox9.Image = global::BaseLayout.Properties.Resources.Project1;
+            this.pictureBox9.Location = new System.Drawing.Point(473, 479);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Padding = new System.Windows.Forms.Padding(3);
+            this.pictureBox9.Size = new System.Drawing.Size(224, 224);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 8;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox5.Image = global::BaseLayout.Properties.Resources.Project1;
+            this.pictureBox5.Location = new System.Drawing.Point(243, 249);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Padding = new System.Windows.Forms.Padding(3);
+            this.pictureBox5.Size = new System.Drawing.Size(224, 224);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 4;
+            this.pictureBox5.TabStop = false;
+            // 
+            // PictureBox1
+            // 
+            this.PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PictureBox1.Image = global::BaseLayout.Properties.Resources.Project1;
+            this.PictureBox1.Location = new System.Drawing.Point(13, 19);
+            this.PictureBox1.Name = "PictureBox1";
+            this.PictureBox1.Padding = new System.Windows.Forms.Padding(3);
+            this.PictureBox1.Size = new System.Drawing.Size(224, 224);
+            this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureBox1.TabIndex = 0;
+            this.PictureBox1.TabStop = false;
+            this.PictureBox1.Click += new System.EventHandler(this.onClick);
             // 
             // MainWindow
             // 
@@ -408,7 +547,15 @@
             this.CryptDisplay.ResumeLayout(false);
             this.CryptDescription.ResumeLayout(false);
             this.CryptDescription.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.TestBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -441,7 +588,15 @@
         public System.Windows.Forms.TextBox DescTITLEBox;
         public System.Windows.Forms.TextBox DescNAMEBox;
         public System.Windows.Forms.RichTextBox DescOTHERBox;
-        private System.Windows.Forms.PictureBox TestBox;
+        private System.Windows.Forms.PictureBox PictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox9;
     }
 }
 

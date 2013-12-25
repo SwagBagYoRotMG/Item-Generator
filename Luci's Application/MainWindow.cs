@@ -3,12 +3,14 @@ using System.Drawing;
 using System.Windows.Forms;
 using BaseLayout.Functions;
 using BaseLayout.Properties;
+using MySql.Data.MySqlClient;
 
 namespace BaseLayout
 {
     public partial class MainWindow : Form
     {
         private readonly MainFunctions _mF = new MainFunctions();
+        private readonly Database _db = new Database();
 
         private bool _dragging;
         private Point _startPoint = new Point(0, 0);
@@ -133,7 +135,7 @@ namespace BaseLayout
 
         private void onClick(object sender, EventArgs e)
         {
-            DescNAMEBox.Text = "XML Item Maker";
+            DescNAMEBox.Text = "Item Maker";
             DescTITLEBox.Text = "ItemMaker";
             DescDEVBox.Text = "Lucifer";
             DescCREATEDBox.Text = "07/12/2013";
